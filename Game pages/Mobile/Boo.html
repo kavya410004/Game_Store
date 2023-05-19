@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boo!</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="..\..\images\favicon.png" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f4b2636d3b.js" crossorigin="anonymous"></script>
+
+    <!--External css-->
+      <link rel="stylesheet" href="..\..\css\styles.css">
+</head>
+<body >
+   <div class="container-fluid title-nav" >
+        <h1 class="logo ">Boo!</h1>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"   >
+              <div class="overlay-image"style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/2165600/header.jpg?t=1666015073');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://jayisgames.com/images/booBartBonte.png');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://play-lh.googleusercontent.com/7J5NFZrA56ir2kSGloZUCf2lQHJ_d9sL6qhUrpWa0wprj28Slk2uT95Fn3gF7uWch4k=w526-h296-rw');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+    
+      <div class=" game-details-card col-lg-6">
+        <div class="game-details-card-1 row ">
+          <div class="game-icon-card col-lg-2 col-md-3 col-4 ">
+            <img class="icon" src="https://play-lh.googleusercontent.com/lSsveSVEIpCjixX8K3lQSe2BSbrcUIu1Faum87k_Kbje_xIE5aEFDMGOPYCIJCJfWtQ" alt="">
+          </div>
+          <div class="game-name-card col-md-4 col-4">
+            <h3 class="medium-heading">Boo!</h3>
+            <p class="game-studios-page">Bart Bonte</p>
+            <div class="star-rating-in-game-card"> <span class="fa-sharp fa-solid fa-star" style="color: #ffeb0a;"> 4.8</span></div>
+          </div>
+        </div>
+        <div class="game-details-card2">
+          <p >'Boo!' is a spooky puzzle game for you!</p>
+          <p>To solve the puzzles you have to dip the pumpkin in the different paints and wear attributes to mask certain parts of the pumpkin.
+            The puzzles start easy but it gets more difficult!
+            Can you make the correct pumpkin in 42 Halloween themed levels?
+            Complete all the levels to unlock the brand new daily puzzle mode...
+            </p>
+        </div>
+      </div>    
+    </div>
+    <div class = "requirements-container ">
+      <h3 class = "medium-heading">Minimun requirements</h3>
+      <p class = "requirements-text">Operating System: The game requires a mobile device running on Android 4.1 or later, or iOS 8.0 or later.</p>
+      <p class = "requirements-text">Storage Space: You need to have enough storage space on your mobile device to install the game. The game has a size of around 50MB, so make sure your device has at least that much free space.</p>
+      <p class = "requirements-text">Internet Connection: While "Boo!" doesn't require an internet connection to play, you may need to download the game from the app store, so make sure you have a stable internet connection for the initial download.</p>
+      <p class = "requirements-text">Hardware: The game is designed to be played on mobile devices, so you need to have a device with a touch screen and a decent processor to ensure smooth gameplay.</p>
+    </div>
+    <div class="button-container">
+      <button type="button" class="download-button" onclick="window.open('https://play.google.com/store/apps/details?id=air.com.bartbonte.boo&hl=en&gl=US')">
+        <strong class="download-text">Download</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>
+      
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
+    </div>
+    
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among us</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="..\..\images\favicon.png" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f4b2636d3b.js" crossorigin="anonymous"></script>
+
+    <!--External css-->
+      <link rel="stylesheet" href="..\..\css\styles.css">
+</head>
+<body >
+   <div class="container-fluid title-nav" >
+        <h1 class="logo ">Among us</h1>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="overlay-image"  style="background-image:url('https://cdn.cloudflare.steamstatic.com/steam/apps/945360/capsule_616x353.jpg?t=1683133083');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://games.lol/wp-content/uploads/2020/08/among-us-download-free-1024x572.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://play-lh.googleusercontent.com/qKzgm73G-tYutABAFdP9Eiwu1Fw0mfVMHNsi0cI5Q6kSK0aRFI99J_mODQsVQ-8QznI=w526-h296-rw');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+    
+      <div class=" game-details-card col-lg-6">
+        <div class="game-details-card-1 row ">
+          <div class="game-icon-card col-lg-2 col-md-3 col-4 ">
+            <img class="icon" src="https://assets.stickpng.com/images/6002f9d851c2ec00048c6c78.png" alt="">
+          </div>
+          <div class="game-name-card col-md-4 col-4">
+            <h3 class="medium-heading">Among us</h3>
+            <p class="game-studios-page">InnerSloth LLC</p>
+            <div class="star-rating-in-game-card"> <span class="fa-sharp fa-solid fa-star" style="color: #ffeb0a;"> 4.4</span></div>
+          </div>
+        </div>
+        <div class="game-details-card2">
+          <p>Find the imposter... before it's too late!</p>
+          <p> Among Us is a very popular game that has gained a lot of popularity recently. It's a multiplayer game where players are assigned the role of either a crewmate or an imposter. The crewmates' goal is to complete tasks on the spaceship while trying to identify and vote off the imposter. On the other hand, the imposter's goal is to kill all the crewmates without getting caught. It's a game that requires strategy, communication, and teamwork.</p>
+        </div>
+     </div>    
+    </div>
+    <div class = "requirements-container ">
+      <h3 class = "medium-heading">Minimun requirements</h3>
+      <p class = "requirements-text">Operating System: Among Us is compatible with Android 6.0 and later, as well as iOS 13.0 and later.</p>
+      <p class = "requirements-text">Storage Space: The game requires approximately 150 MB of free space on your device.</p>
+      <p class = "requirements-text">RAM: It is recommended to have at least 1 GB of RAM on your device to play the game smoothly.</p>
+      <p class = "requirements-text">Internet Connection: Among Us is an online multiplayer game, so a stable internet connection is required to play the game.</p>
+      <p class = "requirements-text">Screen Size: The game can be played on any device with a minimum screen size of 4.5 inches.</p>
+      <p class = "requirements-text">Graphics: The game features simple graphics, so it should run smoothly on most devices.</p>
+    </div>
+    <div class="button-container">
+      <button type="button" class="download-button" onclick="window.open('https://among-us.en.uptodown.com/android')">
+        <strong class="download-text">Download</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>
+      
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
+    </div>
+    
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

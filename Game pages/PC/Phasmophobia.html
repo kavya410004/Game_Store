@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phasmophobia</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="..\..\images\favicon.png" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f4b2636d3b.js" crossorigin="anonymous"></script>
+
+    <!--External css-->
+      <link rel="stylesheet" href="..\..\css\styles.css">
+</head>
+<body >
+   <div class="container-fluid title-nav" > 
+        <h1 class="logo ">Phasmophobia</h1>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"   >
+              <div class="overlay-image"style="background-image:url('https://thenerdstash.com/wp-content/uploads/2023/02/phasmophobia.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_645/65b427f86913cae733312c821f741a88.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://outsidergaming.com/wp-content/uploads/2020/12/Phasmophobia-PC-Controls-Tips-Beginners.jpg');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+    
+      <div class=" game-details-card col-lg-6">
+        <div class="game-details-card-1 row ">
+          <div class="game-icon-card col-lg-2 col-md-3 col-4 ">
+            <img class="icon" src="https://steamuserimages-a.akamaihd.net/ugc/1848179050040022588/6029B87EDA147D5A879ABCB040C97AC7FE5F8425/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="">
+          </div>
+          <div class="game-name-card col-md-7 col-7">
+            <h3 class="medium-heading">Phasmophobia</h3>
+            <p class="game-studios-page">Kinetic Games</p>
+            <div class="star-rating-in-game-card"> <span class="fa-sharp fa-solid fa-star" style="color: #ffeb0a;"> 5</span></div>
+          </div>
+        </div>
+        <div class="game-details-card2">
+          <p >Phasmophobia is a 4-player, online co-op, psychological horror game. You and your team of paranormal investigators will enter haunted locations filled with paranormal activity and try to gather as much evidence as you can. Use your ghost-hunting equipment to find and record evidence to sell on to a ghost removal team</p>
+        </div>
+      </div>    
+    </div>
+    <div class = "requirements-container ">
+      <h3 class = "medium-heading">Minimun requirements</h3>
+      <p class = "requirements-text">Requires a 64-bit processor and operating system</p>
+      <p class = "requirements-text">OS: Windows 10 64Bit</p>
+      <p class = "requirements-text">Processor: Intel Core i5-4590 / AMD Ryzen 5 2600</p>
+      <p class = "requirements-text">Memory: 8 GB RAM</p>
+      <p class = "requirements-text">Graphics: NVIDIA GTX 970 / AMD Radeon R9 390</p>
+      <p class = "requirements-text">DirectX: Version 11</p>
+      <p class = "requirements-text">Storage: 21 GB available space</p>
+      <p class = "requirements-text">VR Support: OpenXR</p>
+      <p class = "requirements-text">Additional Notes: Minimum Specs are for VR, lower specs may work for Non-VR.</p>
+    </div>
+    <div class="button-container">
+      <button type="button" class="download-button" onclick="window.open('https://store.steampowered.com/app/739630/Phasmophobia/')">
+        <strong class="download-text">Download</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>      
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
+    </div> 
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

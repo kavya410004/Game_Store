@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It Takes Two</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="..\..\images\favicon.png" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f4b2636d3b.js" crossorigin="anonymous"></script>
+
+    <!--External css-->
+      <link rel="stylesheet" href="..\..\css\styles.css">
+</head>
+<body >
+   <div class="container-fluid title-nav" > 
+        <h1 class="logo ">It Takes Two</h1>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"   >
+              <div class="overlay-image"style="background-image:url('https://www.gameinformer.com/sites/default/files/styles/body_default/public/2021/02/11/ac64ad29/ittakestwo07.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://goombastomp.com/wp-content/uploads/2021/12/ITT_GI_shot02_web.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="overlay-image"  style="background-image:url('https://cdn.vox-cdn.com/thumbor/o18r6V82koxg6_aQ0aEh9g2L8KY=/0x0:3840x2160/1200x0/filters:focal(0x0:3840x2160):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22389871/3_22_2021_3_30_59_PM_utr5ynzp.png');"></div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+    
+      <div class=" game-details-card col-lg-6">
+        <div class="game-details-card-1 row ">
+          <div class="game-icon-card col-lg-2 col-md-3 col-4 ">
+            <img class="icon" src="https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png" alt="">
+          </div>
+          <div class="game-name-card col-md-7 col-7">
+            <h3 class="medium-heading">It Takes Two</h3>
+            <p class="game-studios-page">Hazelight</p>
+            <div class="star-rating-in-game-card"> <span class="fa-sharp fa-solid fa-star" style="color: #ffeb0a;"> 5</span></div>
+          </div>
+        </div>
+        <div class="game-details-card2">
+          <p >Embark on the craziest journey of your life in It Takes Two, a genre-bending platform adventure created purely for co-op. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Together, trapped in a fantastical world where the unpredictable hides around every corner, they are reluctantly challenged with saving their fractured relationship.</p>
+        </div>
+      </div>    
+    </div>
+    <div class = "requirements-container ">
+      <h3 class = "medium-heading">Minimun requirements</h3>
+      <p class = "requirements-text">Requires a 64-bit processor and operating system</p>
+      <p class = "requirements-text">OS: Windows 8.1 64-bit or Windows 10 64-bit</p>
+      <p class = "requirements-text">Processor: Intel Core i3-2100T or AMD FX 6100</p>
+      <p class = "requirements-text">Memory: 8 GB RAM</p>
+      <p class = "requirements-text">Graphics: Nvidia GeForce GTX 660 or AMD R7 260x</p>
+      <p class = "requirements-text">DirectX: Version 11</p>
+      <p class = "requirements-text">Network: Broadband Internet connection</p>
+      <p class = "requirements-text">Storage: 50 GB available space</p>
+    </div>
+    <div class="button-container">
+      <button type="button" class="download-button" onclick="window.open('https://store.steampowered.com/app/1426210/It_Takes_Two/')">
+        <strong class="download-text">Download</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>      
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
+    </div> 
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

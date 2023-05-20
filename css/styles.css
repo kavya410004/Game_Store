@@ -183,6 +183,11 @@ iframe{
   }
 }
 
+/* Games section */
+.card:hover {
+  cursor:pointer;
+}
+
 /* games list page */
 .section-name{
   color: #eeeeee;
